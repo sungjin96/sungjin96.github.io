@@ -1,6 +1,9 @@
 ---
-layout: post title:  "애자일의 단일 책임 원칙 (SRP)"
-date:   2021-08-07 20:58:36 +0530 tags:   애자일 단일책임원칙 SRP categories : [애자일]
+- layout: post
+- title:  "애자일의 단일 책임 원칙 (SRP)"
+- date:   2021-08-07 20:58:36 +0530
+- tags: 애자일 단일책임원칙 SRP
+- categories : [애자일]
 ---
 
 애자일의 원칙중에 단일 책임 원칙에 대해서 기록할려고 한다.
