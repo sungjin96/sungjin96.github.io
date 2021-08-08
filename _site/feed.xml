@@ -2,21 +2,71 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://sungjin96.github.io/</id>
-  <title>Sungjin</title>
+  <title>Sungjin's blog</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-08-08T20:33:37+09:00</updated>
+  <updated>2021-08-08T22:54:48+09:00</updated>
   <author>
-    <name>장성진</name>
+    <name>Jang Sungjin</name>
     <uri>https://sungjin96.github.io/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="https://sungjin96.github.io/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="kr"
     href="https://sungjin96.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
-  <rights> © 2021 장성진 </rights>
+  <rights> © 2021 Jang Sungjin </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>로봇 RPG Game 리팩토링 01</title>
+    <link href="https://sungjin96.github.io/posts/Simple-RPG-Game-Refactoring-01/" rel="alternate" type="text/html" title="로봇 RPG Game 리팩토링 01" />
+    <published>2021-08-08T00:28:36+09:00</published>
+  
+    <updated>2021-08-08T22:52:11+09:00</updated>
+  
+    <id>https://sungjin96.github.io/posts/Simple-RPG-Game-Refactoring-01/</id>
+    <content src="https://sungjin96.github.io/posts/Simple-RPG-Game-Refactoring-01/" />
+    <author>
+      <name>Jang Sungjin</name>
+    </author>
+
+  
+    
+    <category term="Refactoring" />
+    
+    <category term="RPG Game" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      시작의 이유
+앞으로 리팩토링을 꾸준히 고민하고 연습하기 위해 시리즈로 기록을 할 예정이다.
+
+첫 시작의 연습 주제는 간단하게(맞나..?) RPG 게임으로 만들어 볼려고 한다.
+
+RPG 게임으로 생각한 이유는 다음과 같다
+
+  각 종 아이템과, 액션, 캐릭터 등 객체지향을 활용하기 좋은 구조이다.
+  너무 간단한 프로젝트의 연습은 리팩토링의 필요성이 잘 와닿지 않는다.
+  각 종 디자인 패턴도 적용을 할 예정인데 첫번째 이유와 같이 여러가지 상황이 있으니 적용할 만한 패턴이 존재 할 것이다.
+
+
+공부 순서
+지금 당장 생각하고 있는
+
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -24,7 +74,7 @@
     <link href="https://sungjin96.github.io/posts/single-responsibility-principle/" rel="alternate" type="text/html" title="애자일의 단일 책임 원칙 (SRP)" />
     <published>2021-08-08T00:28:36+09:00</published>
   
-    <updated>2021-08-08T00:28:36+09:00</updated>
+    <updated>2021-08-08T22:52:11+09:00</updated>
   
     <id>https://sungjin96.github.io/posts/single-responsibility-principle/</id>
     <content src="https://sungjin96.github.io/posts/single-responsibility-principle/" />
@@ -72,56 +122,6 @@ class Circle {
     }
 
     pu...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>로봇 RPG Game 리팩토링 01</title>
-    <link href="https://sungjin96.github.io/posts/Simple-RPG-Game-Refactoring-01/" rel="alternate" type="text/html" title="로봇 RPG Game 리팩토링 01" />
-    <published>2021-08-08T00:28:36+09:00</published>
-  
-    <updated>2021-08-08T19:46:56+09:00</updated>
-  
-    <id>https://sungjin96.github.io/posts/Simple-RPG-Game-Refactoring-01/</id>
-    <content src="https://sungjin96.github.io/posts/Simple-RPG-Game-Refactoring-01/" />
-    <author>
-      <name>장성진</name>
-    </author>
-
-  
-    
-    <category term="Refactoring" />
-    
-    <category term="RPG Game" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      시작의 이유
-앞으로 리팩토링을 꾸준히 고민하고 연습하기 위해 시리즈로 기록을 할 예정이다.
-
-첫 시작의 연습 주제는 간단하게(맞나..?) RPG 게임으로 만들어 볼려고 한다.
-
-RPG 게임으로 생각한 이유는 다음과 같다
-
-  각 종 아이템과, 액션, 캐릭터 등 객체지향을 활용하기 좋은 구조이다.
-  너무 간단한 프로젝트의 연습은 리팩토링의 필요성이 잘 와닿지 않는다.
-  각 종 디자인 패턴도 적용을 할 예정인데 첫번째 이유와 같이 여러가지 상황이 있으니 적용할 만한 패턴이 존재 할 것이다.
-
-
-공부 순서
-지금 당장 생각하고 있는
-
     </summary>
   
 

@@ -1,21 +1,6 @@
 [
   
   {
-    "title": "애자일의 단일 책임 원칙 (SRP)",
-    "url": "/posts/single-responsibility-principle/",
-    "categories": "애자일, 원칙",
-    "tags": "애자일, 단일책임원칙, SRP",
-    "date": "2021-08-08 00:28:36 +0900",
-    
-
-
-
-
-
-    "snippet": "애자일의 원칙중에 단일 책임 원칙에 대해서 기록할려고 한다.단일 책임 원칙이란 한 클래스에서는 한 가지의 변경 이유만 가져야 한다. 밑에 예시코드를 살펴 보자.class Circle {    private int radius;    Circle(int radius) {        this.radius = radius;    }    public void setRadius(int radius) {        this.radius = radius;    }    public int getRadius() {        retu..."
-  },
-  
-  {
     "title": "로봇 RPG Game 리팩토링 01",
     "url": "/posts/Simple-RPG-Game-Refactoring-01/",
     "categories": "Refactoring, RPG Game",
@@ -28,6 +13,21 @@
 
 
     "snippet": "시작의 이유앞으로 리팩토링을 꾸준히 고민하고 연습하기 위해 시리즈로 기록을 할 예정이다.첫 시작의 연습 주제는 간단하게(맞나..?) RPG 게임으로 만들어 볼려고 한다.RPG 게임으로 생각한 이유는 다음과 같다  각 종 아이템과, 액션, 캐릭터 등 객체지향을 활용하기 좋은 구조이다.  너무 간단한 프로젝트의 연습은 리팩토링의 필요성이 잘 와닿지 않는다.  각 종 디자인 패턴도 적용을 할 예정인데 첫번째 이유와 같이 여러가지 상황이 있으니 적용할 만한 패턴이 존재 할 것이다.공부 순서지금 당장 생각하고 있는"
+  },
+  
+  {
+    "title": "애자일의 단일 책임 원칙 (SRP)",
+    "url": "/posts/single-responsibility-principle/",
+    "categories": "애자일, 원칙",
+    "tags": "애자일, 단일책임원칙, SRP",
+    "date": "2021-08-08 00:28:36 +0900",
+    
+
+
+
+
+
+    "snippet": "애자일의 원칙중에 단일 책임 원칙에 대해서 기록할려고 한다.단일 책임 원칙이란 한 클래스에서는 한 가지의 변경 이유만 가져야 한다. 밑에 예시코드를 살펴 보자.class Circle {    private int radius;    Circle(int radius) {        this.radius = radius;    }    public void setRadius(int radius) {        this.radius = radius;    }    public int getRadius() {        retu..."
   }
   
 ]
