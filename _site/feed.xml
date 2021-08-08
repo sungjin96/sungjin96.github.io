@@ -1,19 +1,19 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>/</id>
-  <title>Chirpy</title>
+  <id>https://sungjin96.github.io/</id>
+  <title>Sungjin</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-08-08T18:46:42+08:00</updated>
+  <updated>2021-08-08T20:33:37+09:00</updated>
   <author>
-    <name>your_full_name</name>
-    <uri>/</uri>
+    <name>장성진</name>
+    <uri>https://sungjin96.github.io/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
-  <link rel="alternate" type="text/html" hreflang="en"
-    href="/"/>
+  <link rel="self" type="application/atom+xml" href="https://sungjin96.github.io/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="kr"
+    href="https://sungjin96.github.io/"/>
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
-  <rights> © 2021 your_full_name </rights>
+  <rights> © 2021 장성진 </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
@@ -21,13 +21,13 @@
   
   <entry>
     <title>애자일의 단일 책임 원칙 (SRP)</title>
-    <link href="/posts/single-responsibility-principle/" rel="alternate" type="text/html" title="애자일의 단일 책임 원칙 (SRP)" />
-    <published>2021-08-07T23:28:36+08:00</published>
+    <link href="https://sungjin96.github.io/posts/single-responsibility-principle/" rel="alternate" type="text/html" title="애자일의 단일 책임 원칙 (SRP)" />
+    <published>2021-08-08T00:28:36+09:00</published>
   
-    <updated>2021-08-07T23:28:36+08:00</updated>
+    <updated>2021-08-08T00:28:36+09:00</updated>
   
-    <id>/posts/single-responsibility-principle/</id>
-    <content src="/posts/single-responsibility-principle/" />
+    <id>https://sungjin96.github.io/posts/single-responsibility-principle/</id>
+    <content src="https://sungjin96.github.io/posts/single-responsibility-principle/" />
     <author>
       <name>Sung Jin</name>
     </author>
@@ -80,15 +80,15 @@ class Circle {
   
   <entry>
     <title>로봇 RPG Game 리팩토링 01</title>
-    <link href="/posts/Simple-RPG-Game-Refactoring-01/" rel="alternate" type="text/html" title="로봇 RPG Game 리팩토링 01" />
-    <published>2021-08-07T23:28:36+08:00</published>
+    <link href="https://sungjin96.github.io/posts/Simple-RPG-Game-Refactoring-01/" rel="alternate" type="text/html" title="로봇 RPG Game 리팩토링 01" />
+    <published>2021-08-08T00:28:36+09:00</published>
   
-    <updated>2021-08-07T23:28:36+08:00</updated>
+    <updated>2021-08-08T19:46:56+09:00</updated>
   
-    <id>/posts/Simple-RPG-Game-Refactoring-01/</id>
-    <content src="/posts/Simple-RPG-Game-Refactoring-01/" />
+    <id>https://sungjin96.github.io/posts/Simple-RPG-Game-Refactoring-01/</id>
+    <content src="https://sungjin96.github.io/posts/Simple-RPG-Game-Refactoring-01/" />
     <author>
-      <name>your_full_name</name>
+      <name>장성진</name>
     </author>
 
   

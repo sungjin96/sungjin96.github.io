@@ -27,8 +27,8 @@ layout: default
           <!-- lastmod -->
           {% if page.last_modified_at %}
           <span>
-            {{ site.data.locales[lang].post.updated }}
             {% include timeago.html date=page.last_modified_at class="lastmod" tooltip=true %}
+            {{ site.data.locales[lang].post.updated }}
           </span>
           {% endif %}
 
