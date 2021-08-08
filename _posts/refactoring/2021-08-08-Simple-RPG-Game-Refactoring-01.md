@@ -2,7 +2,7 @@
 layout: post
 title:  "로봇 RPG Game 리팩토링 01"
 date:   2021-08-07 20:58:36 +0530 
-tags: Java Refactoring RPG GAME
+tags: [Java, Refactoring, RPG Game]
 categories : [Refactoring, RPG Game]
 ---
 ## 시작의 이유
