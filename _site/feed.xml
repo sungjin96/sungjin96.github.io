@@ -1,0 +1,258 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>/</id>
+  <title>Chirpy</title>
+  <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
+  <updated>2021-08-08T18:30:51+08:00</updated>
+  <author>
+    <name>your_full_name</name>
+    <uri>/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <rights> © 2021 your_full_name </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>로봇 RPG Game 리팩토링 01</title>
+    <link href="/posts/Simple-RPG-Game-Refactoring-01/" rel="alternate" type="text/html" title="로봇 RPG Game 리팩토링 01" />
+    <published>2021-08-07T23:28:36+08:00</published>
+  
+    <updated>2021-08-07T23:28:36+08:00</updated>
+  
+    <id>/posts/Simple-RPG-Game-Refactoring-01/</id>
+    <content src="/posts/Simple-RPG-Game-Refactoring-01/" />
+    <author>
+      <name>your_full_name</name>
+    </author>
+
+  
+    
+    <category term="Refactoring" />
+    
+    <category term="RPG Game" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      시작의 이유
+앞으로 리팩토링을 꾸준히 고민하고 연습하기 위해 시리즈로 기록을 할 예정이다.
+
+첫 시작의 연습 주제는 간단하게(맞나..?) RPG 게임으로 만들어 볼려고 한다.
+
+RPG 게임으로 생각한 이유는 다음과 같다
+
+  각 종 아이템과, 액션, 캐릭터 등 객체지향을 활용하기 좋은 구조이다.
+  너무 간단한 프로젝트의 연습은 리팩토링의 필요성이 잘 와닿지 않는다.
+  각 종 디자인 패턴도 적용을 할 예정인데 첫번째 이유와 같이 여러가지 상황이 있으니 적용할 만한 패턴이 존재 할 것이다.
+
+
+공부 순서
+지금 당장 생각하고 있는
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>애자일의 단일 책임 원칙 (SRP)</title>
+    <link href="/posts/single-responsibility-principle/" rel="alternate" type="text/html" title="애자일의 단일 책임 원칙 (SRP)" />
+    <published>2021-08-07T23:28:36+08:00</published>
+  
+    <updated>2021-08-07T23:28:36+08:00</updated>
+  
+    <id>/posts/single-responsibility-principle/</id>
+    <content src="/posts/single-responsibility-principle/" />
+    <author>
+      <name>Sung Jin</name>
+    </author>
+
+  
+    
+    <category term="애자일" />
+    
+    <category term="원칙" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      애자일의 원칙중에 단일 책임 원칙에 대해서 기록할려고 한다.
+
+단일 책임 원칙이란 한 클래스에서는 한 가지의 변경 이유만 가져야 한다. 밑에 예시코드를 살펴 보자.
+
+class Circle {
+    private int radius;
+
+    Circle(int radius) {
+        this.radius = radius;
+    }
+
+    public void setRadius(int radius) {
+        this.radius = radius;
+    }
+
+    public int getRadius() {
+        return this.radius;
+    }
+
+    public void paint() {
+        // paint code
+    }
+
+    pu...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Enable Google Page Views</title>
+    <link href="/posts/enable-google-pv/" rel="alternate" type="text/html" title="Enable Google Page Views" />
+    <published>2021-01-04T07:32:00+08:00</published>
+  
+    <updated>2021-01-04T07:32:00+08:00</updated>
+  
+    <id>/posts/enable-google-pv/</id>
+    <content src="/posts/enable-google-pv/" />
+    <author>
+      <name>Dinesh Prasanth Moluguwan Krishnamoorthy</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      This post is to enable Page Views on the Chirpy theme based blog that you just built. This requires technical knowledge and it’s recommended to keep the google_analytics.pv.* empty unless you have a good reason. If your website has low traffic, the page views count would discourage you to write more blogs. With that said, let’s start with the setup.
+
+Set up Google Analytics
+
+Create GA account a...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Customize the Favicon</title>
+    <link href="/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
+    <published>2019-08-11T00:34:00+08:00</published>
+  
+    <updated>2019-08-11T00:34:00+08:00</updated>
+  
+    <id>/posts/customize-the-favicon/</id>
+    <content src="/posts/customize-the-favicon/" />
+    <author>
+      <name>Cotes Chung</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The favicons of Chirpy are placed in the directory assets/img/favicons/. You may need to replace them with your own. The following sections will guide you how to create and replace the default favicons.
+
+Generate the favicon
+
+Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click button Select your Favicon image ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Getting Started</title>
+    <link href="/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
+    <published>2019-08-09T20:55:00+08:00</published>
+  
+    <updated>2019-08-09T20:55:00+08:00</updated>
+  
+    <id>/posts/getting-started/</id>
+    <content src="/posts/getting-started/" />
+    <author>
+      <name>Cotes Chung</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Prerequisites
+
+Follow the Jekyll Docs to complete the installation of Ruby, RubyGems, Jekyll and Bundler. Please note that the version of Ruby must meet the requirements of the theme on RubyGems.org.
+
+Installation
+
+There are two ways to get the theme:
+
+
+  Install from RubyGems - Easy to update, isolate irrelevant project files so you can focus on writing.
+  Fork on GitHub - Convenient for custo...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
