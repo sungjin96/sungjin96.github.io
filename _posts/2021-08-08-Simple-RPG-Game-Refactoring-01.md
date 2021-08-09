@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "로봇 RPG Game 리팩토링 01"
-date:   2021-08-07 20:58:36 +0530 
+date:   2021-08-08 20:58:36 +0530
 tags: [Java, Refactoring, RPG Game]
 categories : [Refactoring, RPG Game]
 ---
@@ -16,4 +16,4 @@ RPG 게임으로 생각한 이유는 다음과 같다
 3. 각 종 디자인 패턴도 적용을 할 예정인데 첫번째 이유와 같이 여러가지 상황이 있으니 적용할 만한 패턴이 존재 할 것이다.
 
 ## 공부 순서
-지금 당장 생각하고 있는 
+지금 당장 생각하고 있는

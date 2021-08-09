@@ -4,7 +4,7 @@
   <id>https://sungjin96.github.io/</id>
   <title>Sungjin's blog</title>
   <subtitle>A minimal, portfolio, sidebar, bootstrap Jekyll theme with responsive web design and focuses on text presentation.</subtitle>
-  <updated>2021-08-08T22:54:48+09:00</updated>
+  <updated>2021-08-09T18:49:26+09:00</updated>
   <author>
     <name>Jang Sungjin</name>
     <uri>https://sungjin96.github.io/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>로봇 RPG Game 리팩토링 01</title>
     <link href="https://sungjin96.github.io/posts/Simple-RPG-Game-Refactoring-01/" rel="alternate" type="text/html" title="로봇 RPG Game 리팩토링 01" />
-    <published>2021-08-08T00:28:36+09:00</published>
+    <published>2021-08-09T00:28:36+09:00</published>
   
-    <updated>2021-08-08T22:52:11+09:00</updated>
+    <updated>2021-08-09T00:28:36+09:00</updated>
   
     <id>https://sungjin96.github.io/posts/Simple-RPG-Game-Refactoring-01/</id>
     <content src="https://sungjin96.github.io/posts/Simple-RPG-Game-Refactoring-01/" />
@@ -74,7 +74,7 @@ RPG 게임으로 생각한 이유는 다음과 같다
     <link href="https://sungjin96.github.io/posts/single-responsibility-principle/" rel="alternate" type="text/html" title="애자일의 단일 책임 원칙 (SRP)" />
     <published>2021-08-08T00:28:36+09:00</published>
   
-    <updated>2021-08-08T22:52:11+09:00</updated>
+    <updated>2021-08-08T19:46:56+09:00</updated>
   
     <id>https://sungjin96.github.io/posts/single-responsibility-principle/</id>
     <content src="https://sungjin96.github.io/posts/single-responsibility-principle/" />
